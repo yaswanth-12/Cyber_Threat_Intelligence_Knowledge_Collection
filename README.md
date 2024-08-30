@@ -11,4 +11,9 @@
   - Create a simple dynamic UI using NextJs
   - Test using Postman, cURl/libURL, Innvocations from programming language modules (requests, #include <curlpp/cURLpp.hpp>)
 
+### Focused Areas:
+  - **Prerequisite Knowledge:** OSI Layer
+  - **Programming Language:** Rust Programming
+  - **User Interface:** NextJs Frameware
+
 Google Spread Sheet Link: https://docs.google.com/spreadsheets/d/1cXVVii61oINR_bJaU_N5jjD-_vOmzDxZ0VZ2aSQVjDc/edit?usp=sharing
