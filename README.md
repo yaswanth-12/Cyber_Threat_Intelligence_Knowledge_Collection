@@ -4,9 +4,11 @@
 
 ### Steps (Version#1):
   - Learn webhook workings
-  - Choose language (probably python/C++)
+  - Programming Language - Rust/Python
   - Create a project structure tree
   - Does it require me to buy a domain or can I use github hosting?
   - Learn language specific modules (like requests, etc..)
   - Create a simple dynamic UI using NextJs
   - Test using Postman, cURl/libURL, Innvocations from programming language modules (requests, #include <curlpp/cURLpp.hpp>)
+
+Google Spread Sheet Link: https://docs.google.com/spreadsheets/d/1cXVVii61oINR_bJaU_N5jjD-_vOmzDxZ0VZ2aSQVjDc/edit?usp=sharing
