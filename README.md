@@ -3,7 +3,7 @@
 - This webhook is similar to [webhook.site](https://webhook.site/)
 
 ### Steps (Version#1):
-  - Learn webhook workings
+  - Learn webhook working
   - Programming Language - Rust/Python
   - Create a project structure tree
   - Does it require me to buy a domain or can I use github hosting?
