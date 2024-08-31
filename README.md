@@ -1,6 +1,6 @@
 # webhook
 
-- This webhook is similar to [webhook.site](https://webhook.site/)
+- This webhook is supposed to work like [webhook.site](https://webhook.site/)
 
 ### Steps (Version#1):
   - Learn webhook working
