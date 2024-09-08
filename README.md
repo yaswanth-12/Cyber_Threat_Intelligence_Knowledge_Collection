@@ -16,4 +16,8 @@
   - **Programming Language:** Rust Programming
   - **User Interface:** NextJs Framework
 
+### Tasks:
+  - [x] ~Create a Google Spread Sheet to update progress~
+  - [ ] Create a Architecture
+
 Google Spread Sheet Link: https://docs.google.com/spreadsheets/d/1cXVVii61oINR_bJaU_N5jjD-_vOmzDxZ0VZ2aSQVjDc/edit?usp=sharing
