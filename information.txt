@@ -1,0 +1,4 @@
+Request Methods: GET, POST, PUT, UPDATE, DELETE, OPTIONS, HEAD, PATCH, TRACE, MERGE
+Protocol Methods: HTTP, HTTPS
+
+Create a listener that will display the request response
