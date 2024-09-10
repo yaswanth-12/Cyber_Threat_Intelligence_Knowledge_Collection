@@ -2,6 +2,12 @@
 
 - This webhook is inspired by [webhook.site](https://webhook.site/)
 
+### Architecture (Version#1):
+
+<p align="center">
+<img src="images/webhook_Architecture.png" alt="Architecuture Image"  width="80%"><br>
+</p>
+
 ### Steps (Version#1):
   - Learn webhook working
   - Programming Language - Rust/Python
