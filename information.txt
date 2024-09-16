@@ -1,4 +1,32 @@
-Request Methods: GET, POST, PUT, UPDATE, DELETE, OPTIONS, HEAD, PATCH, TRACE, MERGE
-Protocol Methods: HTTP, HTTPS
+Handle all these Request Methods: GET, POST, PUT, UPDATE, DELETE, OPTIONS, HEAD, PATCH, TRACE, MERGE
+Handle all these Protocol Methods (or are they handled by programming language modules/libraries or should I manually do it?): HTTP, HTTPS, FTP, ICMP.
 
-Create a listener that will display the request response
+Create a listener that will display the request-response
+
+What I need:
+1. Perform the Business Logic: 
+	1. Pub/Sub Model: An end-to-end communication management service to send low/high volumes of data (use Kafka architecture) from different Publishers (sources) (In Bytes/JSON/Images/Videos) (with possible fault tolerance mechanisms, and scalability microservices) to a Broker (Intermediatory Service to process data) and the Broker must send the data to the Subscribers (that subscribe to specific topics).
+	Possible Usage cases: 
+		1. Cyber Security Information Collection across different Mediums (News, Blogs, CWEs, CVEs) (Basically a big dictionary)
+		2. Real-time Threat Intelligence Sharing (3rd party tools or services that gather threat intelligence from "legitimate" sources, for example, malware signatures, IP addresses of malicious actors, attack patterns) (Publishers - tools/services, Subscribers - Organizations, services, IDS/IPS, Firewalls that wishes to stay up to date with threat intelligence)
+		3. 
+
+2. The application/tool should help perform API testing automation and API Monitoring (like Postman)
+3. The application/tool should provide seamless client-server architecture (Event-Based)(example: subscribe & publish)
+
+Requests should contain -> Credentials/Passphrases to create API keys as Authentication | API_KEY as Authorization Token (Barer)
+
+Little Intricacies:
+1. Use "HTTP/2 PUSH" to send resources preemptively to the client/server before even the client/server, this reduces latency (due to less number of requests)
+
+
+
+Different Web Application Architectures: 
+1. https://mobidev.biz/blog/web-application-architecture-types
+2. https://positiwise.com/blog/web-application-architecture
+
+API Lifecycle:
+1. https://www.postman.com/api-platform/api-lifecycle/
+
+The FAQ section of svix consists of information about many web application topics and their differences
+1. https://www.svix.com/resources/category/faq/
