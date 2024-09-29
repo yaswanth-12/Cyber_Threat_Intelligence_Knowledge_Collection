@@ -1,13 +1,16 @@
-import requests, polling
+import requests
+import json
+from polling2 import poll_decorator
 
-polling.poll(
-    lambda: requests.get('https://www.google.com').status_code == 200,
-    step=60, # steps are in seconds
-    poll_forever=True
-)
+endPoints = ['http://api.weatherapi.com/v1/current.json?key=59a820f2109d444d9a5172836242909&q=London']
 
-endPoints = ['https://api.website/v1/endpoints', 'https://api.website2/v1/endpoints']
+@poll_decorator(step=10, poll_forever=True)
+def check():
+    for endpoint in endPoints:
+        response = requests.get(endpoint)
+        if response.status_code != 200:
+            raise Exception(f"Failed to reach {endpoint}")
+        print("Success")
+        print(json.dumps(response.json(), indent=4))
 
-polling.poll(
-    lambda: requests.get(endPoints).content == '',
-)
+check()
