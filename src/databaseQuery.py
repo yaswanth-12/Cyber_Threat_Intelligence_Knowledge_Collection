@@ -48,6 +48,7 @@ def view_publishers(publisher_id, config):
         results = cursor.fetchall()
         for row in results:
             print(row)
+        return results
     except mysql.connector.Error as err:
         if err.errno == errorcode.ER_ACCESS_DENIED_ERROR:
             print("Something is wrong with your user name or password")
@@ -71,5 +72,5 @@ config = {
 }
 
 # view_publishers(2, config)
-# view_publishers("*", config)
+view_publishers("*", config)
 # insert_publisher('59a820f2109d444d9a5172836242909', 'http://api.weatherapi.com/v1/current.json?key=59a820f2109d444d9a5172836242909&q=London', 1, 'weatherapi', config)
