@@ -13,11 +13,4 @@ def check():
         print("Success")
         print(json.dumps(response.json(), indent=4))
 
-def add_publisher():
-    api_key = input("Enter API Key: ")
-    endpoint = input("Enter Endpoint: ")
-    publisher_id = input("Enter Publisher ID: ")
-    publisher_name = input("Enter Publisher Name: ")
-    insert_publisher(api_key, endpoint, publisher_id, publisher_name, config)
-
 check()
