@@ -30,3 +30,6 @@ API Lifecycle:
 
 The FAQ section of svix consists of information about many web application topics and their differences
 1. https://www.svix.com/resources/category/faq/
+
+To create Server-Side Event (SSE) application for client management:
+1. https://medium.com/@nandagopal05/server-sent-events-with-python-fastapi-f1960e0c8e4b (Check if this is a viable option)
