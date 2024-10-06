@@ -3,6 +3,7 @@ from mysql.connector import errorcode
 
 # Implement methods to handle SQLi (SQL Injection)
 
+
 def insert_publisher(api_key, endpoint, publisher_id, publisher_name, config):
     try:
         # Establish the database connection
@@ -12,7 +13,8 @@ def insert_publisher(api_key, endpoint, publisher_id, publisher_name, config):
         INSERT INTO publishers (API_KEY, endpoint, publisherID, publisherName)
         VALUES (%s, %s, %s, %s)
         """
-        cursor.execute(insert_query, (api_key, endpoint, publisher_id, publisher_name))
+        cursor.execute(insert_query, (api_key, endpoint,
+                       publisher_id, publisher_name))
         cnx.commit()
 
         print("Record inserted successfully")
@@ -31,6 +33,7 @@ def insert_publisher(api_key, endpoint, publisher_id, publisher_name, config):
             cursor.close()
         if 'cnx' in locals():
             cnx.close()
+
 
 def view_publishers(publisher_id, config):
     try:
@@ -64,6 +67,7 @@ def view_publishers(publisher_id, config):
         if 'cnx' in locals():
             cnx.close()
 
+
 config = {
     'user': 'root',
     'password': 'root',
@@ -72,5 +76,5 @@ config = {
 }
 
 # view_publishers(2, config)
-view_publishers("*", config)
+# view_publishers("*", config)
 # insert_publisher('59a820f2109d444d9a5172836242909', 'http://api.weatherapi.com/v1/current.json?key=59a820f2109d444d9a5172836242909&q=London', 1, 'weatherapi', config)

@@ -33,3 +33,4 @@ The FAQ section of svix consists of information about many web application topic
 
 To create Server-Side Event (SSE) application for client management:
 1. https://medium.com/@nandagopal05/server-sent-events-with-python-fastapi-f1960e0c8e4b (Check if this is a viable option)
+https://medium.com/@dilip.thakkar./server-to-client-communication-73d2b08a9e66#:~:text=Server%20sent%20events%20is%20a,for%20constant%20client%2Dinitiated%20requests.
