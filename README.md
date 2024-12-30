@@ -1,4 +1,4 @@
-# webhook
+# Cyber Threat Intelligence Knowledge Collection
 
 - This webhook is inspired by [webhook.site](https://webhook.site/)
 
