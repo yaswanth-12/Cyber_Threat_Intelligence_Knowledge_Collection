@@ -30,6 +30,7 @@
 6. Pulsedive - https://pulsedive.com/, https://pulsedive.com/api/ (API Docs)
 7. ThreatConnect - https://threatconnect.com/, https://threatconnect.readme.io/reference/introduction (API Docs)
 8. Rapid7 - https://www.rapid7.com/db/, https://extensions.rapid7.com/extension/python-3-script (Python Extension)
+9. Hudson Rock - https://www.hudsonrock.com/threat-intelligence-cybercrime-tools, https://cavalier.hudsonrock.com/docs (API Docs)
 
 
 ### Tasks:
